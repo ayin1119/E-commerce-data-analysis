@@ -1,10 +1,10 @@
 PURCHASE_MODEL_CONFIG = {
     # 1. 输入宽表路径
     # 这里用你已经生成并检查过的、含有 train/valid/test 和 label_buy_7d 的宽表
-    "data_path": "../../../../form/deep_learning/ml_feature_wide_table_v1.csv",
+    "data_path": "../../../../form/deep_learning/with_path/mml_feature_wide_table_with_path.csv",
 
     # 2. 输出文件夹
-    "output_dir": "../../../../form/deep_learning",
+    "output_dir": "../../../../form/deep_learning/with_path",
 
     # 3. 数据集划分字段
     "dataset_col": "dataset_type",
